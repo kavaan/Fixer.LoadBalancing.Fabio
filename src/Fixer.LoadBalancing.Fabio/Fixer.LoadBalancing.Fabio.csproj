@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Fixer.Discovery.Consul\src\Fixer.Discovery.Consul\Fixer.Discovery.Consul.csproj" />
+    <ProjectReference Include="..\..\..\Fixer.HTTP\src\Fixer.HTTP\Fixer.HTTP.csproj" />
+  </ItemGroup>
+
+</Project>
